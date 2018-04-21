@@ -241,6 +241,7 @@ left join country on city.country_id = country.country_id;
 
 # 9e. Select the title, description, release year, and language name columns from the film table, performing a left join with the language table to get the "language" column.
 # Label the language.name column as "language" (e.g. `select language.name as language`)
+
 SELECT language.name as language, 
 film.title, film.description, film.release_year
 from film
